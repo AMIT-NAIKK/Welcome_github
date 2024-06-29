@@ -15,3 +15,5 @@ ex -- git add index.html or  git add README.md
 to add multiple files we can use ex -- (git add .)
 then (git status) to check the save..
 to commit example - (git commit -m"add new paragraph")
+Your branch is ahead of 'origin/main' by 2 commits. meaning in git hub that changes not reflect first you have to push to the git hub 
+to push to github--(git push origin main)
