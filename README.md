@@ -10,10 +10,7 @@ Author - AMIT KUMAR NAIK
 6. if any changes then go to commit changes(right side top corner)
 7. make changes then save
 <<<<<<< HEAD
-8.then go to vs code write git clone (paste the link from git in https )... then vs connect with the git repositories.
-=======
 8. then go to vs code write git clone (paste the link from git in https )... then vs connect with the git repositories.
->>>>>>> 785fc808b7eb7c73c669e78ae165fefbfe7d3704
 9. if any modify ocuurs then we have to first add then commit.
 to add git add (new file name/modified file name).
 ex -- git add index.html or  git add README.md  
@@ -27,10 +24,6 @@ if any changes occurs First have
 2.commit
 3.push
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 785fc808b7eb7c73c669e78ae165fefbfe7d3704
 git init /////
 
 cd .. for back one step directory
