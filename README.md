@@ -9,7 +9,7 @@ Author - AMIT KUMAR NAIK
 5. after create click your repository and here is go..
 6. if any changes then go to commit changes(right side top corner)
 7. make changes then save
-8. if any modify ocuurs then wehave to first add then commit.
+8. if any modify ocuurs then we have to first add then commit.
 to add git add (new file name/modified file name).
 ex -- git add index.html or  git add README.md  
 to add multiple files we can use ex -- (git add .)
@@ -17,3 +17,7 @@ then (git status) to check the save..
 to commit example - (git commit -m"add new paragraph")
 Your branch is ahead of 'origin/main' by 2 commits. meaning in git hub that changes not reflect first you have to push to the git hub 
 to push to github--(git push origin main)
+if any changes occurs First have 
+1. add
+2.commit
+3.push
