@@ -22,3 +22,9 @@ if any changes occurs First have
 1. add
 2.commit
 3.push
+
+git init /////
+
+cd .. for back one step directory
+mkdir make new folder 
+git init (intialize empty repository)
