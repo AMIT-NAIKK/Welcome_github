@@ -9,8 +9,8 @@ Author - AMIT KUMAR NAIK
 5. after create click your repository and here is go..
 6. if any changes then go to commit changes(right side top corner)
 7. make changes then save
-then go to vs code write git clone (paste the link from git in https )... then vs connect with the git repositories.
-8. if any modify ocuurs then we have to first add then commit.
+8.then go to vs code write git clone (paste the link from git in https )... then vs connect with the git repositories.
+9. if any modify ocuurs then we have to first add then commit.
 to add git add (new file name/modified file name).
 ex -- git add index.html or  git add README.md  
 to add multiple files we can use ex -- (git add .)
@@ -22,3 +22,10 @@ if any changes occurs First have
 1. add
 2.commit
 3.push
+
+
+git init /////
+
+cd .. for back one step directory
+mkdir make new folder 
+git init (intialize empty repository)
