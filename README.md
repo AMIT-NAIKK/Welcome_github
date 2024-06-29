@@ -25,7 +25,15 @@ if any changes occurs First have
 3.push
 
 git init /////
-
+(local folder connect with the git )
 cd .. for back one step directory
 mkdir make new folder 
 git init (intialize empty repository)
+then go to repository create new repo 
+then copy the link and write in vs terminal
+git remote add origin <link>
+to verify remote  (git remote -v)
+to check branch (git branch)
+to rename branch (git branch -M main)
+next git push origin main or git push -u origin main
+
