@@ -14,3 +14,4 @@ to add git add (new file name/modified file name).
 ex -- git add index.html or  git add README.md  
 to add multiple files we can use ex -- (git add .)
 then (git status) to check the save..
+to commit example - (git commit -m"add new paragraph")
