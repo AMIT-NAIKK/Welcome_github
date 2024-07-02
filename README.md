@@ -78,3 +78,10 @@ to know diff -- git diff branchname  /// note: check which branh you are and bra
 
 4. for appear in vs code
 git reset --hard hash
+
+
+// Fork(it is a rough copy if you want to work in a project of others in this it use to copy to your repository from others)
+
+1. first search or find the project
+2. then go to fork option create fork 
+3. then make some changes if want to merge the origin then create pull request..
