@@ -9,7 +9,7 @@ Author - AMIT KUMAR NAIK
 5. after create click your repository and here is go..
 6. if any changes then go to commit changes(right side top corner)
 7. make changes then save
-<<<<<<< HEAD
+
 8. then go to vs code write git clone (paste the link from git in https )... then vs connect with the git repositories.
 9. if any modify ocuurs then we have to first add then commit.
 to add git add (new file name/modified file name).
@@ -37,3 +37,8 @@ to check branch (git branch)
 to rename branch (git branch -M main)
 next git push origin main or git push -u origin main
 
+to create a new branch --  (git checkout -b branchname )
+Switched to branch  -- (git checkout branchname)
+delete branch -- (git branch -d branch name )  note:if you are in same branch 1st change the branch
+what ever you write in a branch it will not show in another branch (to write anything in a branch select that branch and write )
+then add,commit and push(git push origin  branchname)
