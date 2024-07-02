@@ -42,3 +42,39 @@ Switched to branch  -- (git checkout branchname)
 delete branch -- (git branch -d branch name )  note:if you are in same branch 1st change the branch
 what ever you write in a branch it will not show in another branch (to write anything in a branch select that branch and write )
 then add,commit and push(git push origin  branchname)
+
+
+///// merge branch (by adding features but in different lines )
+
+to know diff -- git diff branchname  /// note: check which branh you are and branch name should be other which you right now..
+ After know the differnce if want to merge then
+ 1. go to git hub and branch select to main //(where you want to merge other )//  then compare and pull request 
+ 2. then write title and then click create pull request.
+ 3. due to add features but in different lines so it shows no complicence 
+ 4. after that click merge pull request ...
+ 5. then confirm merge..
+ 6. then in git hub different branches show same code..
+ 7. but it will not reflect in vs code to the same we have to  --- git branch pull origin main
+
+
+ ///// merge branch (by adding features but in same lines(resolving merge conflicts) )
+1. to this we have to write something in same line vs code..
+2. after that (git merge main)
+3. it will shows some diff in screen then decide what you keep and then add commit in other branch ..
+4. then switch to main and type  (git merge feature1(branch which want to merge in main))
+5. then push to main to update in git hub
+
+
+//// undo
+1. only add then undo
+
+(git reset  filename(index.html)) or git reset
+
+2. add and commit
+(git reset HEAD~1 )one step back head lets total 4 commits it will go to 3 
+
+3. multiple changes 
+(git reset hash example (git log(there is some number which commint you want go back copy that hash)))
+
+4. for appear in vs code
+git reset --hard hash
